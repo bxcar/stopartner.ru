@@ -1,0 +1,21 @@
+<svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-opacity: 0;
+        stroke: #3b3bb0;
+        stroke-linejoin: round;
+        stroke-opacity: 0.6;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #3b3bb0;
+        fill-rule: evenodd;
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="20.5" cy="20.5" r="20"/>
+  <path class="cls-2" d="M323,2178h-4v-4Zm-1,1v13H309v-17h9v-1H308v19h15v-14h-1Zm-11,3v-1h9v1h-9Zm0,3v-1h9v1h-9Zm0,3v-1h9v1h-9Z" transform="translate(-294.5 -2163.5)"/>
+</svg>

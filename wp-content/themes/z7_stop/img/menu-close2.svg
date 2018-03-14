@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="menu_copy_2" data-name="menu copy 2" class="cls-1" d="M214.222,30.364l14.142-14.142,1.414,1.414L215.636,31.778ZM230,30.543L215.457,16,214,17.457,228.543,32Z" transform="translate(-214 -16)"/>
+  <rect class="cls-2" x="7" y="7" width="2" height="2"/>
+</svg>

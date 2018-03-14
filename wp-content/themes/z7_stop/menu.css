@@ -1,0 +1,127 @@
+ div.wrap-menu *{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman",Times,serif;
+	box-sizing: border-box;
+}
+@media  (max-width: 940px) {}
+
+div.wrap-menu{background: rgba(0,0,0,0.07);}
+div.wrap-menu nav{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+div.wrap-menu ul{
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+}
+div.wrap-menu a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  padding: 20px 55px; /*добавляем отступ*/
+  text-align: center;
+  font-size: 16px;
+  color: #393939;
+  display: block; 
+  border-right: 1px solid #cfcfc2; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+div.wrap-menu a.last{border: none;}
+div.wrap-menu nav > ul > li:hover > a {
+  background:#1f1f66;/*добавляем эффект при наведении*/
+  color: #fff;
+}
+div.wrap-menu li a:hover {
+  background:#1f1f66;/*добавляем эффект при наведении*/
+  color: #fff;
+}
+div.wrap-menu ul.submenu:hover a.car{background:#1f1f66;/*добавляем эффект при наведении*/
+  color: #fff;}
+div.wrap-menu li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+div.wrap-menu div.icon-menu{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+div.wrap-menu div.car{background: url('img/car.png') no-repeat center center;}
+div.wrap-menu div.house{background: url('img/house.png') no-repeat center center;}
+div.wrap-menu div.judge{background: url('img/judge.png') no-repeat center center;}
+div.wrap-menu div.calc{background: url('img/calc.png') no-repeat center center;}
+div.wrap-menu li:hover a.car div.car{background: url('img/car-hover.png') no-repeat center center;}
+div.wrap-menu a.house:hover div.house{background: url('img/house-hover.png') no-repeat center center;}
+div.wrap-menu a.judge:hover div.judge{background: url('img/judge-hover.png') no-repeat center center;}
+div.wrap-menu a.calc:hover div.calc{background: url('img/calc-hover.png') no-repeat center center;}
+
+
+
+
+    /*Стили для скрытого выпадающего меню*/
+  div.wrap-menu  li > ul {
+        position:absolute;
+        top:114.5px;
+        display:none;   
+    }
+     
+    /*Делаем скрытую часть видимой*/
+div.wrap-menu    li:hover > ul {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/      
+    }
+div.wrap-menu   li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+    }
+
+div.wrap-menu ul.submenu{z-index: 10;}
+div.wrap-menu a.submenu{
+	text-align: left;
+	background: #2c2c7c;
+	border-left: none;
+	border-bottom: 1px solid #424289;
+	color: #fff;
+	padding: 15px 0 15px 20px;
+	width: 263.4px;
+	font-size: 14px;
+}
+div.wrap-menu a.submenu:hover{background: #3e3e9a;}
+
+
+div.wrap-menu ul.submenu2{
+	margin-left: 263.4px;
+	top: 0px;
+	background: #3e3e9a;
+	padding: 10px 20px;
+	z-index: 10;
+}
+div.wrap-menu a.submenu2{
+	border-left: 1px solid #5252a4;
+	border-right: none;
+	padding: 0;
+	color: #c1c1da;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+}
+div.wrap-menu a.submenu2:hover{
+	background: #3e3e9a;
+	border-left: 1px solid #fff;
+	color: #fff;
+}
+
+
+
+
+
+ @media screen and (max-device-width: 1000px) {
+   div.wrap-menu  div {width: 1500px;}
+   }
+
+   @media  (min-width: 780px) {div.wrap-menu nav{min-width: 1000px;}}
+   @media  (max-width: 780px) {div.wrap-menu {display: none;} }

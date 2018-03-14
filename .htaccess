@@ -1,0 +1,22 @@
+RewriteCond %{SERVER_PORT} ^80$ [OR]
+RewriteCond %{HTTP} =on
+RewriteCond %{REQUEST_URI} !^/robots.txt$ [NC]
+RewriteCond %{REQUEST_URI} !^/yandex_7c311f80755ec1f1.html$ [NC]
+RewriteRule ^(.*)$ https://stopartner.ru/$1 [R=301,L]
+
+# This file was updated by Duplicator on 2018-02-12 09:02:30. See .htaccess.orig for the original .htaccess file.
+# Please note that other plugins and resources write to this file. If the time-stamp above is different
+# than the current time-stamp on the file system then another resource has updated this file.
+# Duplicator only writes to this file once during the install process while running the installer.php file.
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

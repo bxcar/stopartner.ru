@@ -1,0 +1,27 @@
+.pk .menu-top-tit ul { position: absolute; width: 200px !important; z-index: 2; display: none; list-style: none; padding: 0; margin: 0; background: #1F1F66; text-align: left; padding-top: 15px;}
+.pk .menu-top-tit ul ul { padding-top: 0;}
+.pk .menu-top-tit ul li a { font: 17px/1 "Times New Roman"; color: #fff; display: block; padding: 10px 10px 10px 15px;}
+.pk .menu-top-tit ul li a.over,
+.pk .menu-top-tit ul li a:hover { background: none; text-decoration: underline; color: hsl(33, 46%, 45%);}
+.pk .menu-top-tit ul li a:before,
+.pk .menu-top-tit ul li a:before { display: none;}
+.pk .menu-top-tit ul li a:hover::before,
+.pk .menu-top-tit ul li a:hover::after { opacity: 0;}
+.pk .menu-top-tit ul li:first-child,
+.pk .menu-top-tit ul li { border: 0; display: block;}
+#sandbox_theme_panel_154215 { top: 200px !important;}
+.menu-top li a::after { z-index: 4000;}
+.mob .menu-top-tit ul { display: none;}
+.pk .zz1 { display: block;}
+.pk .zz2 { display: none;}
+.site-header-in { z-index: 1;}
+.mob .zz1 { display: none;}
+.mob .zz2 { display: block;}
+
+.menu-top > li > a.over:before,
+.menu-top > li > a.over:after { opacity: 1;}
+.menu-top > li > a.over {
+    background: hsl(240, 53%, 21%) none repeat scroll 0 0;
+    color: hsl(33, 46%, 45%);
+    text-decoration: none;
+}

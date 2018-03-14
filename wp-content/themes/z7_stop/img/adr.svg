@@ -1,0 +1,17 @@
+<svg id="Группа_8" data-name="Группа 8" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c5a26b;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: beige;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="22.5" cy="22.5" r="22.5"/>
+  <path class="cls-2" d="M558.687,3734.48h0.2l-6.7,11.52-7.07-11.63,0.133,0.01A8,8,0,1,1,558.687,3734.48ZM552,3725.42a4.64,4.64,0,1,0,4.6,4.64A4.624,4.624,0,0,0,552,3725.42Zm0,6.98a2.34,2.34,0,1,1,2.32-2.34A2.332,2.332,0,0,1,552,3732.4Z" transform="translate(-529 -3710)"/>
+</svg>
