@@ -84,5 +84,16 @@
       <!-- assets.bottom -->
       <script src="<?php bloginfo('template_url'); ?>/res/site.min.js" type="text/javascript"></script>
       <?php wp_footer(); ?>
+            <style>
+                .page-id-84 .fix-bg-container {
+                    background-image: url(<?= get_template_directory_uri(); ?>/img/dtp-fix-bg.jpeg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                }
+            </style>
+            <script>
+                jQuery('.page-id-84 .site-content-wrap.contaner.clear-self').wrap('<div class="fix-bg-container"></div>');
+            </script>
    </body>
 </html>
